@@ -19,7 +19,7 @@ typedef enum {
 const int program[] = {
   PUSH, 0, // push 5 and 6 onto stack
   PUSH, 0,
-  AND, // POP 5 and 6 and add them together, push the result back on the stack
+  ADD, // POP 5 and 6 and add them together, push the result back on the stack
   POP, // POP the result from the stack
   HLT // Halt the program
 };

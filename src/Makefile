@@ -1,5 +1,3 @@
-WARNING = -Wall -Wshadow --pedantic
-ERROR = -Wvla
 GCC = gcc -std=c99 -g
 VAL = valgrind --tool=memcheck --log-file=vallog --leak-check=full --verbose
 
